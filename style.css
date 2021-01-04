@@ -6,6 +6,9 @@ body{
 h1{
     font-size: 40px;
 }
+h3{
+    font-size: 30px;
+}
 p{
     font-size: 30px;
 }
@@ -28,7 +31,7 @@ p{
     
 }
 section{
-    height: 500px;
+    height: 600px;
 }
 .top-button{
     text-decoration: none;
@@ -38,4 +41,9 @@ section{
     font-size: 25px;
     font-weight: 600;
     border-radius: 5px;
+}
+.secound-section{
+    background-image: url("images/dream-bg.png");
+    background-position: right;
+    background-repeat: no-repeat;
 }
