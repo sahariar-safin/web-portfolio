@@ -9,6 +9,9 @@ h1{
 h3{
     font-size: 30px;
 }
+h2{
+    font-size: 40px;
+}
 p{
     font-size: 30px;
 }
@@ -28,7 +31,6 @@ p{
 .top-section{
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
-    
 }
 section{
     height: 600px;
@@ -46,4 +48,26 @@ section{
     background-image: url("images/dream-bg.png");
     background-position: right;
     background-repeat: no-repeat;
+}
+.exprience-section{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.left-exprience{
+    margin-top: 18px;
+    box-shadow: 0px 0px 15px 1px black;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(131, 7, 48), tomato);
+    border-image-slice: 1;
+}
+.right-exprience{
+    margin-top: 18px;
+    box-shadow: 0px 0px 15px 1px black;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(60, 154, 218), rgb(179, 27, 166));
+    border-image-slice: 1;
+}
+footer p {
+    text-align: center;
 }
