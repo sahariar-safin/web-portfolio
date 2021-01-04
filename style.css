@@ -19,3 +19,11 @@ p{
 .half-width img{
     width: 100%;
 }
+.top-section{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+    
+}
+section{
+    height: 500px;
+}
